@@ -12,10 +12,10 @@ int main(void)
 	If (n>0){
                   Printf("is positive");
             } 
-        elseif (n=0){
+        else if (n=0){
                  printf ("is zero");
                 } 
-         elseif (n<0){
+         else if (n<0){
                printf (" is negative ");
                }
 	return (0);
