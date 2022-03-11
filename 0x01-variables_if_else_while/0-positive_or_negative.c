@@ -9,7 +9,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	If ( n > 0){
+	If (n>0){
                   Printf("is positive");
             } 
         elseif (n=0){
