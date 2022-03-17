@@ -1,6 +1,4 @@
-To https://github.com/Nabhany/alx-low_level_programming.git
-   d14846f..a10b21c  master -> master
-root@b53b574eb676:/alx-low_level_programming/0x03-debugging# vi 1-main.c        
+    
 #include <stdio.h>
 /**
 * main - causes an infinite loop
