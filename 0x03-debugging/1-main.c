@@ -8,12 +8,12 @@ root@b53b574eb676:/alx-low_level_programming/0x03-debugging# vi 1-main.c        
 
 int main(void)
 {
-        int i;
+/*        int i; */
 
         printf("Infinite loop incoming :(\n");
-
-        i = 0;
 /*
+*        i = 0;
+*
 *        while (i < 10)
 *        {
 *                      putchar(i);
