@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * _strncat -  function that concatenates two strings.
@@ -21,5 +20,4 @@ char *_strncat(char *dest, char *src, int n)
 		a++;
 	}
 	dest[index + a] = '\0';
-
-
+}
