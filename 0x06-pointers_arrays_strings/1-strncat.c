@@ -2,22 +2,38 @@
 
 /**
  * _strncat -  function that concatenates two strings.
- * @src: cadena a copiar
- * @dest: destino de la cadena.
- * @n: number.
- * Return: dest.
+ * @n: size of character to contatenate
+ * @dest: s1
+ * @src: s2
+ * Return: Always 0.
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
-	int index = strlen(dest);
-	int a = 0;
 
-	while (a < n && *src)
+	int i = 0, c = 0, s = 0;
+
+	while (dest[i] != '\0')
 	{
-		dest[index + a] = *src;
-		src++;
-		a++;
+		i++;
 	}
-	dest[index + a] = '\0';
+	while (src[c] != '\0')
+	{
+		c++;
+	}
+
+	while (s <= c)
+	{
+		if (n > 0)
+		{
+		dest[i] = src[s];
+		s++;
+		i++;
+		n--;
+		}
+		else
+		{
+			break;
+		}
+	}
+	return (dest);
 }
