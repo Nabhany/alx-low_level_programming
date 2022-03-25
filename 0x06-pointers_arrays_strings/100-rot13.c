@@ -30,5 +30,3 @@ while (*s != '\0')
 	}
 return (p);
 }
-© 2022 GitHub, Inc.
-
